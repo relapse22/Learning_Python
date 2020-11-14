@@ -12,3 +12,6 @@ my_file.seek(0)
 
 print() # empty print just to give a line space in the code
 print(my_file.readlines())
+
+# close the file so it can be used somewere else it he programme
+my_file.close()
